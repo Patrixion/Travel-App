@@ -3,15 +3,45 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: "Open Sans";
 }
 
 @font-face {
   font-family: "Open Sans";
   src: url("./../../fonts/Opensans.ttf") format("truetype");
 }
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("./../../fonts/Poppins-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url("./../../fonts/Poppins-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url("./../../fonts/Poppins-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Volkhov-Regular";
+  src: url("./../../fonts/Volkhov-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Volkhov-Bold";
+  src: url("./../../fonts/Volkhov-Bold.ttf") format("truetype");
+}
 /*Imports from utils */
 /*Imports from pages */
+.category {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.category .section__name {
+  font-family: "Poppins-Regular";
+  font-weight: 600;
+}
+
 /*Imports from components */
 /*Imports from layout */
 

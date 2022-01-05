@@ -1,0 +1,11 @@
+.category {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .section__name {
+        font-family: "Poppins-Regular";
+        font-weight: 600;
+    }
+}
