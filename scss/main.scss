@@ -1,0 +1,17 @@
+/*Imports from base */
+@import 'base/reset';
+@import 'base/typography';
+
+/*Imports from utils */
+@import 'utils/mixins';
+@import 'utils/variables';
+
+/*Imports from pages */
+@import 'pages/home';
+
+/*Imports from components */
+@import 'components/buttons';
+
+/*Imports from layout */
+@import 'layout/footer';
+@import 'layout/header';
